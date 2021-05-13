@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/maeltht/argoflow.git
+    repoURL: https://github.com/maeltht/argoflow-1.git
     targetRevision: master
     path: nginx
     kustomize:

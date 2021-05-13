@@ -6,11 +6,11 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/maeltht/argoflow.git
+    repoURL: https://github.com/maeltht/argoflow-1.git
     targetRevision: master
     path: .
     kustomize:
-      version: v4.0.5
+      version: v4.1.2
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:
